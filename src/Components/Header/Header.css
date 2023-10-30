@@ -1,0 +1,21 @@
+/* .h-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.h-wrappper{
+    background: var(--black);
+    color:white;
+}
+.h-container{
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--secondary);
+    }
+.h-menu{
+    gap:3rem;
+}
+.h-menu:hover{
+    cursor: pointer;
+}
