@@ -1,0 +1,33 @@
+.row{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.control{
+   
+    margin-right: 15px;
+    max-width:14rem ;
+}
+
+.ru-color{
+    color: yellow;
+    
+}
+.card:hover{
+     scale: 1.075;
+   
+     background: linear-gradient(
+        180deg,
+        rgba(255,255,255,0)0%,
+        rgba(136,160,255,0.46)217.91%,
+     );  
+     box-shadow: 0px 72px 49px -51px rgba(136,160,255,0.21); 
+}
